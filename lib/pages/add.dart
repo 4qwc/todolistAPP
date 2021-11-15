@@ -88,7 +88,7 @@ class _AddPageState extends State<AddPage> {
   // ไปใช้ที่ onPressed: ()
   Future postTodo() async {
     var url = Uri.http(
-        '206.189.88.9:8585', // // ใช้ server ลุง http ใช้สำหรับทดสอบใน local
+        'uncleapi.com:8448', // // ใช้ server ลุง http ใช้สำหรับทดสอบใน local
         '/api/post-todolist'); //  url  api post นำมาจาก post เท่านั้น
 
     // สำหรับเทส nrok

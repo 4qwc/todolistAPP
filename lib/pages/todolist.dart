@@ -95,7 +95,7 @@ class _TodolistState extends State<Todolist> {
   Future<void> getTodolist() async {
     List alltodo = [];
     var url = Uri.http(
-        '206.189.88.9:8585', // ใช้ server ลุง
+        'uncleapi.com:8448', // ใช้ server ลุง
         '/api/all-todolist'); //192.168.0.145:8000/ ip ของเครื่อง //ให้รัน python manage.py runserver 0.0.0.0:8000
     var response = await http.get(url);
     var result = utf8.decode(response.bodyBytes);

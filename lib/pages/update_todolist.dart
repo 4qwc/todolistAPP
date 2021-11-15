@@ -112,7 +112,7 @@ class _UpdatePageState extends State<UpdatePage> {
   // ไปใช้ที่ onPressed: ()
   Future updateTodo() async {
     var url = Uri.http(
-        '206.189.88.9:8585', // http ใช้สำหรับทดสอบใน local
+        'uncleapi.com:8448', // http ใช้สำหรับทดสอบใน local
         '/api/update-todolist/$_v1'); //  url  api post นำมาจาก post เท่านั้น
 
     // สำหรับเทส nrok
